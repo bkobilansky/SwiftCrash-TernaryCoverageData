@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3468EB1D695AEE00CDE59C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3468EA1D695AEE00CDE59C /* AppDelegate.swift */; };
+		CA3468ED1D695AEE00CDE59C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3468EC1D695AEE00CDE59C /* ViewController.swift */; };
+		CA3468F01D695AEE00CDE59C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3468EE1D695AEE00CDE59C /* Main.storyboard */; };
+		CA3468F21D695AEE00CDE59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3468F11D695AEE00CDE59C /* Assets.xcassets */; };
+		CA3468F51D695AEE00CDE59C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3468F31D695AEE00CDE59C /* LaunchScreen.storyboard */; };
+		CA3469001D695AEE00CDE59C /* TernaryCoverageDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3468FF1D695AEE00CDE59C /* TernaryCoverageDataTests.swift */; };
+		CA34690B1D695AEE00CDE59C /* TernaryCoverageDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA34690A1D695AEE00CDE59C /* TernaryCoverageDataUITests.swift */; };
+		CA3469191D695B1200CDE59C /* Crash.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3469181D695B1200CDE59C /* Crash.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA3468FC1D695AEE00CDE59C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3468DF1D695AEE00CDE59C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3468E61D695AEE00CDE59C;
+			remoteInfo = TernaryCoverageData;
+		};
+		CA3469071D695AEE00CDE59C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3468DF1D695AEE00CDE59C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3468E61D695AEE00CDE59C;
+			remoteInfo = TernaryCoverageData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA3468E71D695AEE00CDE59C /* TernaryCoverageData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TernaryCoverageData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3468EA1D695AEE00CDE59C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA3468EC1D695AEE00CDE59C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA3468EF1D695AEE00CDE59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA3468F11D695AEE00CDE59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3468F41D695AEE00CDE59C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3468F61D695AEE00CDE59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3468FB1D695AEE00CDE59C /* TernaryCoverageDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TernaryCoverageDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3468FF1D695AEE00CDE59C /* TernaryCoverageDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryCoverageDataTests.swift; sourceTree = "<group>"; };
+		CA3469011D695AEE00CDE59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3469061D695AEE00CDE59C /* TernaryCoverageDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TernaryCoverageDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA34690A1D695AEE00CDE59C /* TernaryCoverageDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryCoverageDataUITests.swift; sourceTree = "<group>"; };
+		CA34690C1D695AEE00CDE59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3469181D695B1200CDE59C /* Crash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crash.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3468E41D695AEE00CDE59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3468F81D695AEE00CDE59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3469031D695AEE00CDE59C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3468DE1D695AEE00CDE59C = {
+			isa = PBXGroup;
+			children = (
+				CA3468E91D695AEE00CDE59C /* TernaryCoverageData */,
+				CA3468FE1D695AEE00CDE59C /* TernaryCoverageDataTests */,
+				CA3469091D695AEE00CDE59C /* TernaryCoverageDataUITests */,
+				CA3468E81D695AEE00CDE59C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3468E81D695AEE00CDE59C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3468E71D695AEE00CDE59C /* TernaryCoverageData.app */,
+				CA3468FB1D695AEE00CDE59C /* TernaryCoverageDataTests.xctest */,
+				CA3469061D695AEE00CDE59C /* TernaryCoverageDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3468E91D695AEE00CDE59C /* TernaryCoverageData */ = {
+			isa = PBXGroup;
+			children = (
+				CA3468EA1D695AEE00CDE59C /* AppDelegate.swift */,
+				CA3468EC1D695AEE00CDE59C /* ViewController.swift */,
+				CA3469181D695B1200CDE59C /* Crash.swift */,
+				CA3468EE1D695AEE00CDE59C /* Main.storyboard */,
+				CA3468F11D695AEE00CDE59C /* Assets.xcassets */,
+				CA3468F31D695AEE00CDE59C /* LaunchScreen.storyboard */,
+				CA3468F61D695AEE00CDE59C /* Info.plist */,
+			);
+			path = TernaryCoverageData;
+			sourceTree = "<group>";
+		};
+		CA3468FE1D695AEE00CDE59C /* TernaryCoverageDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3468FF1D695AEE00CDE59C /* TernaryCoverageDataTests.swift */,
+				CA3469011D695AEE00CDE59C /* Info.plist */,
+			);
+			path = TernaryCoverageDataTests;
+			sourceTree = "<group>";
+		};
+		CA3469091D695AEE00CDE59C /* TernaryCoverageDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA34690A1D695AEE00CDE59C /* TernaryCoverageDataUITests.swift */,
+				CA34690C1D695AEE00CDE59C /* Info.plist */,
+			);
+			path = TernaryCoverageDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA3468E61D695AEE00CDE59C /* TernaryCoverageData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA34690F1D695AEE00CDE59C /* Build configuration list for PBXNativeTarget "TernaryCoverageData" */;
+			buildPhases = (
+				CA3468E31D695AEE00CDE59C /* Sources */,
+				CA3468E41D695AEE00CDE59C /* Frameworks */,
+				CA3468E51D695AEE00CDE59C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TernaryCoverageData;
+			productName = TernaryCoverageData;
+			productReference = CA3468E71D695AEE00CDE59C /* TernaryCoverageData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA3468FA1D695AEE00CDE59C /* TernaryCoverageDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3469121D695AEE00CDE59C /* Build configuration list for PBXNativeTarget "TernaryCoverageDataTests" */;
+			buildPhases = (
+				CA3468F71D695AEE00CDE59C /* Sources */,
+				CA3468F81D695AEE00CDE59C /* Frameworks */,
+				CA3468F91D695AEE00CDE59C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3468FD1D695AEE00CDE59C /* PBXTargetDependency */,
+			);
+			name = TernaryCoverageDataTests;
+			productName = TernaryCoverageDataTests;
+			productReference = CA3468FB1D695AEE00CDE59C /* TernaryCoverageDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA3469051D695AEE00CDE59C /* TernaryCoverageDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3469151D695AEE00CDE59C /* Build configuration list for PBXNativeTarget "TernaryCoverageDataUITests" */;
+			buildPhases = (
+				CA3469021D695AEE00CDE59C /* Sources */,
+				CA3469031D695AEE00CDE59C /* Frameworks */,
+				CA3469041D695AEE00CDE59C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3469081D695AEE00CDE59C /* PBXTargetDependency */,
+			);
+			name = TernaryCoverageDataUITests;
+			productName = TernaryCoverageDataUITests;
+			productReference = CA3469061D695AEE00CDE59C /* TernaryCoverageDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3468DF1D695AEE00CDE59C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Brandon Kobilansky";
+				TargetAttributes = {
+					CA3468E61D695AEE00CDE59C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PH2X6D3B9M;
+						ProvisioningStyle = Automatic;
+					};
+					CA3468FA1D695AEE00CDE59C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PH2X6D3B9M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA3468E61D695AEE00CDE59C;
+					};
+					CA3469051D695AEE00CDE59C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = PH2X6D3B9M;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA3468E61D695AEE00CDE59C;
+					};
+				};
+			};
+			buildConfigurationList = CA3468E21D695AEE00CDE59C /* Build configuration list for PBXProject "TernaryCoverageData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA3468DE1D695AEE00CDE59C;
+			productRefGroup = CA3468E81D695AEE00CDE59C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3468E61D695AEE00CDE59C /* TernaryCoverageData */,
+				CA3468FA1D695AEE00CDE59C /* TernaryCoverageDataTests */,
+				CA3469051D695AEE00CDE59C /* TernaryCoverageDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA3468E51D695AEE00CDE59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3468F51D695AEE00CDE59C /* LaunchScreen.storyboard in Resources */,
+				CA3468F21D695AEE00CDE59C /* Assets.xcassets in Resources */,
+				CA3468F01D695AEE00CDE59C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3468F91D695AEE00CDE59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3469041D695AEE00CDE59C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3468E31D695AEE00CDE59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3468ED1D695AEE00CDE59C /* ViewController.swift in Sources */,
+				CA3469191D695B1200CDE59C /* Crash.swift in Sources */,
+				CA3468EB1D695AEE00CDE59C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3468F71D695AEE00CDE59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3469001D695AEE00CDE59C /* TernaryCoverageDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3469021D695AEE00CDE59C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA34690B1D695AEE00CDE59C /* TernaryCoverageDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3468FD1D695AEE00CDE59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3468E61D695AEE00CDE59C /* TernaryCoverageData */;
+			targetProxy = CA3468FC1D695AEE00CDE59C /* PBXContainerItemProxy */;
+		};
+		CA3469081D695AEE00CDE59C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3468E61D695AEE00CDE59C /* TernaryCoverageData */;
+			targetProxy = CA3469071D695AEE00CDE59C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA3468EE1D695AEE00CDE59C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3468EF1D695AEE00CDE59C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA3468F31D695AEE00CDE59C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3468F41D695AEE00CDE59C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA34690D1D695AEE00CDE59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA34690E1D695AEE00CDE59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3469101D695AEE00CDE59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PH2X6D3B9M;
+				INFOPLIST_FILE = TernaryCoverageData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.TernaryCoverageData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CA3469111D695AEE00CDE59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PH2X6D3B9M;
+				INFOPLIST_FILE = TernaryCoverageData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.TernaryCoverageData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CA3469131D695AEE00CDE59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PH2X6D3B9M;
+				INFOPLIST_FILE = TernaryCoverageDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.TernaryCoverageDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TernaryCoverageData.app/TernaryCoverageData";
+			};
+			name = Debug;
+		};
+		CA3469141D695AEE00CDE59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PH2X6D3B9M;
+				INFOPLIST_FILE = TernaryCoverageDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.TernaryCoverageDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TernaryCoverageData.app/TernaryCoverageData";
+			};
+			name = Release;
+		};
+		CA3469161D695AEE00CDE59C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PH2X6D3B9M;
+				INFOPLIST_FILE = TernaryCoverageDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.TernaryCoverageDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TernaryCoverageData;
+			};
+			name = Debug;
+		};
+		CA3469171D695AEE00CDE59C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PH2X6D3B9M;
+				INFOPLIST_FILE = TernaryCoverageDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bk.TernaryCoverageDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TernaryCoverageData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA3468E21D695AEE00CDE59C /* Build configuration list for PBXProject "TernaryCoverageData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA34690D1D695AEE00CDE59C /* Debug */,
+				CA34690E1D695AEE00CDE59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA34690F1D695AEE00CDE59C /* Build configuration list for PBXNativeTarget "TernaryCoverageData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3469101D695AEE00CDE59C /* Debug */,
+				CA3469111D695AEE00CDE59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA3469121D695AEE00CDE59C /* Build configuration list for PBXNativeTarget "TernaryCoverageDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3469131D695AEE00CDE59C /* Debug */,
+				CA3469141D695AEE00CDE59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA3469151D695AEE00CDE59C /* Build configuration list for PBXNativeTarget "TernaryCoverageDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3469161D695AEE00CDE59C /* Debug */,
+				CA3469171D695AEE00CDE59C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA3468DF1D695AEE00CDE59C /* Project object */;
+}
